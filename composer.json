@@ -1,0 +1,26 @@
+{
+    "name": "kohana/pimple",
+    "description": "Kohana PHP Framework module for the Pimple dependency injection container",
+    "autoload": {
+      "psr-4": {
+        "Kohana\\Pimple\\": "src/"
+      }
+    },
+    "require": {
+        "php": ">=5.4",
+        "kohana/core": "~3.3",
+        "pimple/pimple": "~3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.6",
+        "squizlabs/php_codesniffer": "~2.3",
+        "mockery/mockery": "~0.9"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Robert-Jan de Dreu",
+            "email": "robertjandreu@gmail.com"
+        }
+    ]
+}
