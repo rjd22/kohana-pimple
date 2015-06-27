@@ -2,7 +2,7 @@
 
 namespace Kohana\Pimple\Controller;
 
-use Controller as KohanaController;
+use Kohana_Controller as KohanaController;
 use Kohana\Pimple\Container;
 
 class ContainerAwareController extends KohanaController
