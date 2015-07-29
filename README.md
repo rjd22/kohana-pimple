@@ -37,7 +37,16 @@ return [
 ## Usage
 
 You can use this dependency injection container by extending the your controllers with the `Kohana\Pimple\Controller\ContainerAwareController`
-this will enable you to access the container by calling `$this->container->has('dependency.one');` or `$this->container->get('dependency.one');`.
+this will enable you to access the container by calling the following to check if a dependency exists:
+
+```php
+$this->container->has('dependency.one');
+```
+And the following to get the dependency:
+ 
+```php
+$this->container->get('dependency.one');
+```
 
 If you don't like extending the controller you can also build the container yourself by calling:
 
