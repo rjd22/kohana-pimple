@@ -50,4 +50,6 @@ $this->container->get('dependency.one');
 
 If you don't like extending the controller you can also build the container yourself by calling:
 
-`$container = Container::factory();`
+```php
+$container = Container::factory();
+```
