@@ -1,5 +1,5 @@
 {
-    "name": "kohana/pimple",
+    "name": "rjd22/kohana-pimple",
     "description": "Kohana PHP Framework module for the Pimple dependency injection container",
     "autoload": {
       "psr-4": {
