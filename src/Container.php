@@ -30,7 +30,7 @@ class Container
      */
     public static function factory()
     {
-        $dependencyConfigPaths = Kohana::$config->load('pimple.dependencyConfigPaths')->as_array();
+        $dependencyConfigPaths = Kohana::$config->load('pimple.dependencyConfigPaths');
 
         return new self([
             new ArrayFileProvider($dependencyConfigPaths)
